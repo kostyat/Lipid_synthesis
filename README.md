@@ -5,7 +5,7 @@ First run `get_alphas.m` to obtain the scaling parameters alpha for each tumor t
 
 Then run `run-min-model_ind.sh` to create 1000 minimal models in the `run_files/` folder.
 
-Then run `combine_models.m` to obtain a consensus minimal model (saved as `resuls/FinalModels.m`).
+Then run `combine_models.m` to obtain a consensus minimal model (saved as `resuls/FinalModels.mat`).
 
 Then, to get the NAD+ consumption cost for each nutrient source, run each file in the `cost-calcs/` folder.
 
